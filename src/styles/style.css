@@ -201,3 +201,36 @@ input:checked + .slider:before {
 .slider.round:before {
   border-radius: 50%;
 }
+
+/* OPERATOR */
+.scrollable-table-container {
+  position: relative;
+  max-height: 400px;
+  overflow-y: auto;
+  padding-right: 15px;
+}
+
+.scrollable-table {
+  width: 100%;
+}
+
+.scrollable-table-container::-webkit-scrollbar {
+  width: 10px;
+  position: absolute;
+  right: 0;
+}
+
+.scrollable-table-container::-webkit-scrollbar-track {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.scrollable-table-container::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 6px;
+  border: 3px solid transparent;
+  margin-left: 10px;
+}
+
+.scrollable-table-container::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+}
