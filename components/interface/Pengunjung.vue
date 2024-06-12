@@ -3,7 +3,7 @@
     <div
       class="flex flex-col w-full px-20 py-7 rounded-t-xl bg-slate-200/60 backdrop-blur-md"
     >
-      <p class="font-bold text-zinc-700 text-3xl">Selamat Datang,</p>
+      <p class="font-bold text-zinc-700 text-3xl">SELAMAT DATANG,</p>
       <p class="font-medium text-zinc-700 text-xl">
         Silahkan isi formulir dibawah terlebih dahulu.
       </p>
@@ -20,6 +20,8 @@
         <ReusableTextField
           label="Nomor Telepon"
           id="nomortelepon"
+          type="number"
+          aria-describedby="helper-text-explanation"
           placeholder="Masukkan nomor telepon atau whatsapp aktif anda"
         />
         <div class="flex justify-between mr-5 ml-1 mb-5">
